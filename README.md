@@ -42,17 +42,17 @@ where $L_{Gen}$ represents the generator loss and $L_{Dis}$ the discriminator lo
 
 The raw depth images as follows:
 
-|                             NO.1                             |                            NO.２                             |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="http://ww1.sinaimg.cn/large/006zLtEmgy1fsginlfsynj30hs0dcglw.jpg" width="400"/> | <img src="http://ww1.sinaimg.cn/large/006zLtEmgy1fsginlh1mxj30hs0dcmxg.jpg" width="400"/> |
+|      NO.1           |        NO.２   |
+| :-----------------: | :--------------: |
+| ![](results/raw_images/49_1200.png) | ![](results/raw_images/49_1400.png)|
 
 The synthesized images from the generator as follows:
 
-|                             NO.1                             |                            NO.２                             |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="http://ww1.sinaimg.cn/large/006zLtEmgy1fsgioanhehj30hs0dcmxy.jpg" width="400"/> | <img src="http://ww1.sinaimg.cn/large/006zLtEmgy1fsgioan6lgj30hs0dcgmd.jpg" width="400"/> |
+|      NO.1           |        NO.２   |
+| :-----------------: | :--------------: |
+| ![](results/gen_images/49_1200.png) | ![](results/gen_images/49_1400.png)|
 
 We set the learning rate as 0.001 and train the complete network for 50 epochs. It takes about 3.42 hours for training with 140k samples on one Nvidia GTX 1080TI.
 
-![](http://ww1.sinaimg.cn/large/006zLtEmgy1fsgin02p0mj30m80gowes.jpg)
+![](results/loss_curve.png)
 
